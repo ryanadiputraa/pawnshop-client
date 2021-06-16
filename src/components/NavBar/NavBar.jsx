@@ -39,7 +39,11 @@ export default function NavBar({ role }) {
                                 className={classes.menuItem}
                                 color="inherit"
                             >
-                                <Link className={classes.logout} to="report">
+                                <Link
+                                    className={classes.logout}
+                                    to="report"
+                                    target="_blank"
+                                >
                                     LAPORAN
                                 </Link>
                             </Button>

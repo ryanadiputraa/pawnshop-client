@@ -113,7 +113,7 @@ export default function Report() {
         <div className={classes.root}>
             <ReactToPdf
                 targetRef={printOutput}
-                filename="test.pdf"
+                filename={`${currentDate}.pdf`}
                 options={options}
                 scale={0.8}
             >
